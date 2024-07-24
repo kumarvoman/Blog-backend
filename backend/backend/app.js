@@ -12,7 +12,7 @@ app.use("/api/blog", blogrouter); //middleware to use the blog routes
 
 mongoose
     .connect(
-        "mongodb+srv://vkivanti:doaurdo4@cluster0.bm9jx5c.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }
+        //put mongo db connection string here and don't forget to remove it from git
     )
     .then(() =>app.listen(3000))
     .then(() => 
